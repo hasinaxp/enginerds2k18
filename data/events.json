@@ -1,0 +1,594 @@
+{
+    "technical": [
+        {
+            "id": "e-t-1",
+            "name": "CODE MONK",
+            "data": {
+                "coordinators": "Anirban Bal, Rohan Jaiswal, SK Mahafuz Zaman , Debjit Ganguli, Protyush Mukherjee, Ujjal Bhowal",
+                "contacts": "+91 7699644039 , +91 8981164607",
+                "entry_fee": "<br>₹ 100/-(solo)<br>₹ 180/-(2 person)<br>₹ 250/-(3 person)",
+                "rules": [
+                    "Please refrain from discussing strategy during the contest.",
+                    "Please DO NOT use any Online Development Environment which exposes your code to the public. We will take plagiarism seriously and shall not entertain any activity which is against the spirit of learning/ programming. Any case of code plagiarism will disqualify both applicants/teams from the contest. ",
+                    "For the programming questions in the test, you are free to use any language of your preference, from the given list of languages:  C, C++, Java,Python3",
+                    "Maximum number of participants allowed per team is 3.",
+                    "You can submit solution for a programming problem as many times as you want. For the given problems you can change your answer any number of times within the round timings. ",
+                    "Enginerds 2k18 – CodeMonk is open to all college students in India. ",
+                    "Only 1 submission per team would be considered for assessment. In case of multiple submissions, the latest submission will be taken into account. ",
+                    "Round 1 will contain 3 questions and will have maximum scores of 30 points each,Round 2 will contain questions 3 questions and will have maximum scores of 50 points each,Round 3 will contain 1 question will have maximum scores of 70 points."
+                ],
+                "description": " Hack your brains to produce great results.<br> Can you solve all the puzzels?<br> The first team/individual to solve and submit the last round question will become the ace of the contest.<br><br>Note: Rules are subjected to change. All decisions by Enginerds team regarding the selection of winners shall be final and binding, under all circumstances.",
+                "prize" : "<br>1<sup>st</sup>  : ₹ 4000/-<br> 2<sup>nd</sup>  : ₹ 3000/-" ,
+                "date":"4th oct",
+                "room":"Lab 3",
+                "time":"12:00 pm"
+             }
+        },
+        {
+            "id": "e-t-2",
+            "name": "CIRCUITRIX",
+            "data": {
+                "coordinators": "ANIRBAN PAL, SAYEN DUTTA, DOLA MANDAL, SMITA SADUKHAN, RIYA SARKAR, SAMIRAN PARUI",
+                "contacts": "+91 8240866291, +91 9007688507,+91 9073481315 ",
+                "entry_fee": "₹ 30/- RUPEES FOR INDIVIDUAL AND ₹ 50/- FOR A TEAM(2 MEMBERS)",
+                "rules": [
+                    "NO PARTICIPANTS WILL BE ALLOWED TO USE INTERNET DURING PERFORMING THE TASKS.",
+                    "PARTICIPANTS HAVE TO BRING PENS BY THEMSELVES.",
+                    "THIS EVENT WILL BE OF THREE ROUNDS, THE FIRST ROUND WILL BE A TECH-QUIZ ROUND WHERE QUESTIONS ABOUT DIGITAL CIRCUITS AND BASIC ELECTRONICS WILL BE ASKED TO TEST THEIR CAPABILITY OF QUALIFING TO THE NEXT ROUND. ",
+                    "QUALIFING PARTICIPANTS OF THE FIRST ROUND WILL BE MOVED TO THE SECOND ROUND. IN THIS ROUND PARTICIPANTS WILL BE GIVEN A BOOLEAN EXPRESSION AND THEY CAN REDUCE THE EXPRESSION AND IMPLEMENT IT IN THE CIRCUIT MAKER OR PORTEUS SOFTWARE.(ONLY ON PERFECTLY MINIMISING AND IMPLEMENTING THE BOOLEAN EXPRESSION, THE CANDIDATE WILL GET FULL MARKS OF THIS ROUND)",
+                    "THE PARTICIPANTS WHO WILL QUALIFY IN THE FIRST AND THE SECOND ROUND WILL GET TO PLAY THE THIRD AND THE FINAL ROUND (ROUND 3). THIS ROUND WILL BE AN INTERESTING ONE. ORGANIZERS WILL PROVIDE A ERRONIOUS CIRCUIT MADE IN CIRCUIT MAKER SOFTWARE AND THE EPECTED CORRECT TRUTH TABLE TO THE PARTICIPANTS. THEY HAVE TO DEBUG THE CIRCUIT TO GET THE OUTPUTS BASED ON THE TRUTH TABLE.THE WINNER AND THE FIRST RUNNER-UP WILL BE JUDGED AFTER THIS ROUND AND WILL BE AWARDED AS MENTIONED."
+                ],
+                "description": " CIRCUITRIX IS THE NAME OF THE ELECTRONICS EVENT THAT IS GOING TO TAKE PLACE IN THE GOVERNMENT COLLEGE OF ENGINEERING AND LEATHER TECHNOLOGY CAMPUS.<br> DECISIONS OF THE ORGANIZERS WILL BE FINAL IN JUDGING THE WINNER.<br> EVERY PARTICIPANT WILL BE GIVEN PARTICIPATION CERTIFICATE.<br> APPLY YOUR BRAINS TO BRING OUT THE ELECCTRONIC NERD INSIDE YOU.",
+                "prize" : "<br>1<sup>st</sup>  : ₹ 1500/-<br> 2<sup>nd</sup>  : ₹ 1000/-",
+                "date":"4th oct",
+                "room":"Lab 1",
+                "time":"1:00 pm"
+            }
+        },
+        {
+            "id": "e-t-3",
+            "name": "ROBOTICS"
+        },
+        {
+            "id": "e-t-4",
+            "name": "WEB GENESIS",
+            "data": {
+                "coordinators": "Spandan Mondal, Anowar Hossain",
+                "contacts": "+91 8371919713",
+                "entry_fee": "₹ 50/- for single & ₹ 80/- for pair",
+                "rules": [
+                    "Consulting with any contestant other than the coordinators and team member is prohibited",
+                    "Contestants can participate on the own or make pair of two people",
+                    "Use of any storage device will not be allowed (i.e. pen drive etc.)",
+                    "Time limit will be 2 hrs. and 30 mins",
+                    "Use Internet will be prohibited, hence only library supplied can be used. I.e. jQuery, bootstrap, font-awesome, materialize-css, tween-max",
+                    "Designed component has to be written in HTML5. Use of angular, react or view.js is not allowed. JavaScript es6 standards are acceptable",
+                    "Contestants cannot use any server side script or make any AJAX or fetch call. Html element iframe or use of any resource image or video other than the supplied ones",
+                    "The subject can be anything as long as the above rules are satisfied. Any violation may cause direct elimination",
+                    "Decisions made by the coordinators are absolute"
+                ],
+                "description" : "Creative roadblocks are simply part of being a web designer or developer. So here is a challenge for you. Can you design a web component that can amuse everyone?<br><br>The component can be a one page site, a login-registration form, a landing page, a card, a web game or any canvas work.",
+                "prize": "<br>1<sup>st</sup>  : ₹ 1400/-<br> 2<sup>nd</sup>  : ₹ 1000/-",
+                "date":"4th oct",
+                "room":"Lab 4",
+                "time":"12:00 pm"
+            }
+        }
+    ],
+    "non-technical": [
+        {
+            "id": "e-nt-1",
+            "name": "BEG BORROW STEAL",
+            "data": {
+                "coordinators": "Kumar Vivek, Kumar Shubham",
+                "contacts": "+91 8670910911",
+                "entry_fee": "₹ 60/-(PER TEAM)",
+                "rules": [
+                    "A Team will comprise of 2 players",
+                    "All the teams will be provided with a list of items.",
+                    "Team members will have to complete the task within a time limit of 30 minutes.",
+                    "Team can beg, borrow or steal the items that are enlisted and provided to them.",
+                    "Teams will have to get themselves registered before the commencement of the event.",
+                    "After the completion of the task the teams will are required to report to the coordinators for evaluation.",
+                    "Teams will be judged on first come, first serve basis and also the items they were able to collect.",
+                    "In any case of misunderstanding or problem, the decision of the organisation is considered to be final and irrevocable."
+                ],
+                "description": "Get ready to put all your resources and contacts to a test to fetch the most radical and extraordinary things in this epic race. In this game show you can win money by begging, borrowing or stealing things. Participants will be given a list of things that they have to fetch within a time span. 'Jugaad' is the key word. For once, you won't be ostracized for begging, despised for borrowing or prosecuted for stealing. The team which earns the maximum points in the least time will be declared winners. So get ready to have some real fun.",
+                "prize" : "<br>1<sup>st</sup>  : ₹ 1200/-<br> 2<sup>nd</sup>  : ₹ 900/-",
+                "date":"4th oct",
+                "room":"LT 3rd Year",
+                "time":"12:00 pm"
+            }
+        },
+        {
+            "id": "e-nt-2",
+            "name": "CHEMGEEK",
+            "data": {
+                "coordinators": "Pranita Chakraborty",
+                "contacts": "+91 7595972787",
+                "entry_fee": "₹ 30/-(PER PERSON)",
+                "rules": [
+                    "Usage of mobile phones and calculators are not allowed.",
+                    "Usage of log book or any hand book of chemistry is strictly prohibited.",
+                    "The event will be conducted in a set of 3 rounds.<br><br><b>Round 1-</b> ELIMINATION ROUND: Pen – Paper quiz round. A set of 20 questions will be given and to be solved within 20 minutes by the participants. Number of teams selected for the next round will be decided on the spot itself.<br><br><b>Round 2-</b> IDENTIFICATION ROUND: The survivors of the round 1 will be grouped into 2-membered teams by the coordinator. The task for this round will include solution identification or to solve chemical riddles.... Let it be a mystery guys!!!<br><br><b>Round 3-</b> RAPID REACTION ROUND: Top 2 teams will be disintegrated at this level and will be subjected to the RAPID FIRE ROUND!!"
+                ],
+                "description": "A spoonful of fun, a cup of innovation into a beaker of chemical interest and behold, ChemGeek is ready! Bring out the inner physicist in you by grabbing the chance to participate in the first ever chemical event in the history of GCELT!",
+                "prize" : "<br>1<sup>st</sup>  : ₹ 1000/-<br> 2<sup>nd</sup>  : ₹ 800/-",
+                "date":"5th oct",
+                "room":"CSE 2nd Year",
+                "time":"2:00 pm"
+            }
+        },
+        {
+            "id": "e-nt-3",
+            "name": "MATHNERDS",
+            "data": {
+                "coordinators": "Ujjal Das, Supratim Sarkar, Kunal Sodhani, Sohan Halder",
+                "contacts": "+91 9007442525",
+                "entry_fee": "₹ 30/-",
+                "rules": [
+                    "There’s no specifc syllabus.Score or lose (MCQ type questions) , puzzles ,riddles  is going to be asked.",
+                    "Calculator is allowed.",
+                    "All the participants must report atleast 15 minutes before the given time.",
+                    "The decision of the invigilator regarding any matter will be the final one.",
+                    "Candidates are requested to bring their own stationary items (pen,pencil etc. ),sheets for rough work will be provided."
+                ],
+                "description": "The event will be conducted in 3 phases namely :  <br>1)Score or Lose*  <br>2)Quizathon <br>3)Brain Teasers",
+                "prize" : "<br>1<sup>st</sup>  : ₹ 1000/-<br> 2<sup>nd</sup>  : ₹ 800/-",
+                "date":"5th oct",
+                "room":"Old 1st Year",
+                "time":"11:00 am"
+            }
+        },
+        {
+            "id": "e-nt-4",
+            "name": " A QURIOUS AFFAIR",
+            "data": {
+                "coordinators": "Debdyuti Saha, Sukhtika Mahanty, Subho Ghosal",
+                "contacts": "+91 9002306459, +91 7980546384, +91 8986678054",
+                "entry_fee": "₹ 60/- per team.",
+                "rules": [
+                    "<b>Team Members-</b> 2 members",
+                    "<b>No. Of Rounds-</b> 3 Rounds",
+                    "<b>NO. OF QUESTIONS-</b><br>&nbsp&nbsp1. First Round- 15 questions<br>&nbsp&nbsp2. Second Round- 5 questions per team<br>&nbsp&nbsp3. Thrid Round- 15 questions",
+                    "<b>ROUND 1-</b>This will be a written round, wherein you will be provided with the question paper and you will have to answer in the paper itself.",
+                    "<b>ROUND 2-</b>This will be an audio-visual round, where 5 audios or visuals will be presented to you and you will have to answer as per the question demands. If the team, the question intended for, fails to answer, the question will be open for the remaining teams.",
+                    "<b>ROUND 3-</b>This will be a rapid fire round, wherein the team that answers the question first will be awarded with points.",
+                    "<b>TOPICS FOR EACH ROUND :</b><br><br><b>First Round-</b>Latest technology and current affairs. The top 4 teams will qualify for the second round.<br><br><b>Second Round-</b>5 genres will be given, each team gets to choose the genre of their choice according to their scores after the end of round one i.e. the team with the maximum score after round 1 gets to choose the genre of their choice first and so on.Genres for second round- Novels, Sports, History of India, Movies, Music. Top two teams will qualify for the third round.<br><br><b>Third Round-</b>Any topic.",
+                    "<ul><br><li>Additional information and marks for each round will be provided to you on the event day itself.</li><br><li>In case of any dispute, the decision of the event heads will be considered as final.</li><br><li>Use of mobile phones and any unfair means will lead to disqualification.</li><br><li>Tie breaker questions will be provided as and when required.</li></ul>"
+                ],
+                "description": "Hack your brains to produce great results.<br> Can you solve all the puzzels?",
+                "prize" : "<br>1<sup>st</sup>  : ₹ 1200/-<br> 2<sup>nd</sup>  : ₹ 800/-",
+                "date":"4th oct",
+                "room":"CSE 3rd Year",
+                "time":"1:30 pm"
+            }
+        },
+        {
+            "id": "e-nt-5",
+            "name": "HUNT MANIA",
+            "data": {
+                "coordinators": "Arnabi  Mitra , Rajdeep Bhowmik , Sanchari Ghosh , Puja  Das, Pallabi Biswas",
+                "contacts": "+91 7890019401, +91 9038271820",
+                "entry_fee": "₹ 120/-(per team)",
+                "rules": [
+                    "The participants are not allowed to use mobile phones.",
+                    "Every team should contain 2 members.",
+                    "Watches are allowed.",
+                    "Do not take assistance from outside.",
+                    "In any case of misunderstanding or problem ..the decision of the organisation is considered to be final and irrevocable."
+                ],
+                "description": "This Treasure Hunt comprises of Three rounds. First of all you the team member have to qualify by solving riddles. Then the team need to reach the final round by Maze , and finally the team member need to hunt and find treasure in our college.",
+                "prize" : "₹ 2500/-",
+                "date":"5th oct",
+                "room":"CSE 3rd Year",
+                "time":"12:00 pm"
+
+            }
+        },
+        {
+            "id":"e-nt-6",
+            "name":"WORD WAR X",
+            "data":{
+                "coordinators":"Saumita Mukherjee ",
+                "contacts":" 8336000020 ",
+                "entry_fee":"₹ 60/-",
+                "rules":[
+                    "<b>1</b>Using phones or any other external help during the contest is not allowed",
+                    "<b>2</b>Participants are requested to finish their task/speech within the stipulated time",
+                    "(<i><b>Note that, breaching the above mentioned can compell us to take actions!!And finally, wishing the participants good luck!!<b></i> :-)"
+                ],
+                "description":"<br>Number of Rounds:<b> &nbsp 2 rounds.<br><br>First round: &nbsp Voice your opinion.<br><br> Motion :- Are machines going to take the jobs of tomorrow?<br><br> Second round:&nbs The face-off .<br><br>Motion:- On-spot",
+                "prize":"<br>1<sup>st</sup>  : ₹ 1600/-<br> 2<sup>nd</sup>  : ₹ 900/-",
+                "date":"4th oct",
+                "room":"IT 2nd Year",
+                "time":"1:00 pm"
+            }
+        }
+    ],
+    "gaming": [
+        {
+            "id": "e-g-1",
+            "name": "CLASH ROYALE",
+            "data": {
+                "coordinators": "Debjit Ganguli, Rudra Mondal",
+                "contacts": "+91 9051549554",
+                "entry_fee": "₹ 40/-",
+                "rules": [
+                    "Each match will be a best of 3 duels, except for the final which will be a best of 5 duels.",
+                    "Before each match, both players have to ban one card that the opponent cannot use throughout the match. In the final match, both players must ban two cards.",
+                    "Players are allowed to change decks after each duel. In the final match, each player must have at least one building card in their decks.",
+                    "BMing is totally banned. Anyone found BMing during a match will be immediately disqualified.(BM is when you randomly use emojis to taunt your opponent).",
+                    "The participants will be set into a knockout type bracket by a computer code to ensure randomness. There might be ghost matches, and participants will automatically qualify for the next round.",
+                    "In any case of misunderstanding or problem, the decision of the organisation is considered to be final and irrevocable."
+                ],
+                "description": "Clash Royale, set in the Clash Universe, is a head to head Multiplayer battle. You can choose 8 cards out of 81, and your task is to defend your towers and destroy the opponent towers using the cards and the towers to your advantage. A player wins a game if he can destroy all three opponent towers or more towers than his opponent before time ends. The event is set in knockout format, each game will be a best of 3 duels and the loser is immediately eliminated. So choose your cards wisely, and let’s clash!",
+                "prize" : "<br>1<sup>st</sup>  : ₹ 1000/-<br> 2<sup>nd</sup>  : ₹ 600/-",
+                "date":"4th oct",
+                "room":"IT 3rd Year",
+                "time":"2:30 pm"
+            }
+        },
+        {
+            "id": "e-g-2",
+            "name": "COUNTER STRIKE GO",
+            "data": {
+                "coordinators": "Manas Kumar Biswas , Mayank Kedia, Debajit Das",
+                "contacts": "+91 9007432986 , +91 7278777280",
+                "entry_fee": "₹ 500/-(5 MEMBER TEAM)",
+                "rules": [
+                    "<b>Competitive Mode:</b> <br>5 vs 5 (Requested to bring your team).<br>The first team to win 16 rounds is declared the winner.",
+                    "<b>Official Maps:</b>De_Dust2, De_Inferno, De_Nuke, De_Train, De_Mirage, De_Cache, De_Overpass.",
+                    "CT/T will be chosen by knife round.",
+                    "There will be a toss to decide which map to play. Winner eliminates 2 maps and the opponent eliminates 1, remainder shall be played.",
+                    "We may install third party program and/or join as an observer for tournament operations purposes, such as verifying match results or gathering match data.",
+                    "Players should bring their own headphones if needed by them .They may also bring their own mouse and other joystick. Keyboard and mouse will be supplied to the players by us if needed.",
+                    "<b>General game settings:</b> <br>30 Rounds (Max rounds format): Each Team plays 15 rounds as Terrorists and 15 rounds as Counter Terrorists.<br>Round Time: 1 minute 45 seconds.<br>C4 Timer: 35 seconds.",
+                    "<b>If disconnection occurs during match:</b> <br>If all the players cannot play due to an unintended, unforeseen accident such as server stoppage, before the 3rd round starts: Match will be restarted.<br>After the 3rd round starts Disconnected player must re-connect to the server. The round is continued unpausing , and if the disconnected player cannot connect to the server, all players must wait during the freeze time after the round until the disconnected player connects to the server. At this time, the match may continue by unpausing. (Not a restart).<br>If up to 3 of all players are unintentionally disconnected: The score for that round is discarded. The game is paused after the round during the freeze time, and all players wait until the disconnected players are connected to the server. When all players are connected, the match may continue by unpausing the game.<br>In case of problems (disconnection of player, high latency, problem with accessories), if the Server Master is unable to pause the server due to technical issues, following rules shall be considered: <br>Problem within 3 rounds: Match Restarts.<br>Within 3-6 rounds: Match will be continued with start money $ 4000.<br>After 6 rounds: Match will be continued with start money $ 8000.",
+                    "<b>Rules for tie-breaker:</b> <br>In case of a tie after regulation round ends, 6 rounds shall be played. 3 rounds as Terrorists and 3 as Counter Terrorists.<br>Initial start money $ 10000.",
+                    "Console should be opened only under the supervision of Co-ordinator. Failing to do so will result in disqualification.",
+                    "Use of obscene language imbibed into the team’s play shall incur disqualification.<br>All the rules are subjected to change at the discretion of the gaming coordinators.<br>The gaming coordinator's decision will be final."
+                ],
+                "description": "Counter-Strike: Global Offensive (CS:GO) is a multiplayer first-person shooter video game developed by Hidden Path Entertainment and Valve Corporation.  The game pits two teams against each other: the Terrorists and the Counter-Terrorists. Both sides are tasked with eliminating the other while also completing separate objectives, the Terrorists, depending on the game mode, must either plant the bomb or defend the hostages, while the Counter-Terrorists must either prevent the bomb from being planted, defuse the bomb, or rescue the hostages.<br>So what are you waiting for. Get to the zone, and fight your way to the top.",
+                "prize" : "prizes worth ₹ 10,000/- to be won.",
+                "date":"5th & 6th oct",
+                "room":"Lab 1",
+                "time":"11:00 am"
+            }
+        },
+        {
+            "id": "e-g-3",
+            "name": "KICK-OFF 18",
+            "data": {
+                "coordinators": "Debojit Karmakar , Nishar Ahmed, Pritam Kumar Show",
+                "contacts": "+91 8583097258,+91 8961042627,+91 7583941655",
+                "entry_fee": "₹ 120/-",
+                "rules": [
+                    "Classic 11 and world 11 are not allowed.",
+                    "Start match with a back-pass after kick off.",
+                    "Legacy Defending is not allowed.",
+                    "Offside on, Injuries off",
+                    "Custom tactics will be allowed on yours' (you & your opponent) decision. If any of you can't use the custom tactics then the match will be continued through default system.",
+                    "No updated squads are allowed.",
+                    "Knockout match duration is 4 mins.",
+                    "Semis match duration is 5mins.",
+                    "Finals match duration is 6mins.",
+                    "Bring your own controllers and the respective drivers needed (if required)",
+                    "In any case of misunderstanding or problem, the decision of the organisation is considered to be final and irrevocable."
+                ],
+                "description": "<b>FIFA is not just a game, It's a way of life...</b><br>Fifa cannot sit back and see greed rule the football world.Nor shall we.Henceforth, get to the warzone, and play the game of football with controls across your fingers and prove your worth. It's your turn to rise and shine among the best of the fifa 18 players.Experience Fifa 18 with stakes higher than ever.Enough said.",
+                "prize" : "<br>1<sup>st</sup>  : ₹ 3000/-<br> 2<sup>nd</sup>  : ₹ 2000/-",
+                "date":"5th & 6th oct",
+                "room":"LT 3rd Year",
+                "time":"11:00 am"
+            }
+        },
+        {
+            "id": "e-g-5",
+            "name": "8 BALL-POOL",
+            "data": {
+                "coordinators": "Joyojyoti Acharya, Shib Nath Murmu",
+                "contacts": "+91 8017834211",
+                "entry_fee": "₹ 30/-",
+                "rules": [
+                    "Participants will have to play with their own device, screen size of the console which will be used in the event have to be strictly less than or equal to 5.5 inch size.",
+                    "The participants have to play with 'New Miniclip' account which is to be created at the beginning of the event.",
+                    "All matches will be played in “Beginner’s cue” with “London Pub” table.",
+                    "Internet connection will be provided during the event, but we will take no responsibility for any connection problem. Participants can play with their own internet connection (preferable).",
+                    "Any type of gaming device related issue is completely the responsibility of the participant.",
+                    "The event will be on several rounds depending on the number of participant.",
+                    "In the first round every participants will be allowed to play 5 matches with an opponent and Further rounds will be played for 3 matches with each opponents.",
+                    "The opponents will be selected randomly by the organizers.",
+                    "Any type of ties will be broken by toss of a coin.",
+                    "Participants are advised to come with freshly installed application.",
+                    "Any type of illegal activity during the whole event will not be entertained and the participant will be disqualified immediately.",
+                    "Administrator’s decision will be the final decision in any certain circumstances."
+                ],
+                "description": "8 Ball Pool is the biggest & best multiplayer Pool game online! Play billiards against other players & friends. There will be several rounds to be played by the participants and every match will be one-to-one against your opponent selected by the organizers. Only London Pub and Beginner’s cue is allowed. So what are you waiting for?<br>Register and Grab the Biggest opportunity to be a pro, every pool enthusiastic are welcome.",
+                "prize" : "<br>1<sup>st</sup>  : ₹ 1000/-<br> 2<sup>nd</sup>  : ₹ 500/-",
+                "date":"5th oct",
+                "room":"CSE 3rd Year",
+                "time":"1:00 pm"
+            }
+        },
+        {
+            "id": "e-g-6",
+            "name": "NFS MOST WANTED",
+            "data": {
+                "coordinators": "Partha Debnath, Soumya Banerjee, Lokasis Ghorai",
+                "contacts": "+91 9163256993, +91 6294556385",
+                "entry_fee": "₹ 60/-(per team)",
+                "rules": [
+                    "Any form of gamepads or racing wheels are not allowed and will lead to subsequent disqualification.",
+                    "Any form of cheats or application of cheat engine not allowed and will lead to subsequent disqualification.",
+                    "<b>Event Rounds:</b><br>The tournament will have 3 phases(tentative subject to change depending upon the number of participants.)<br>1.prelims<br>2.quarters<br>3.semis.<br>4.finale",
+                    "<b>PRELIMS:</b><br>TRACK:OMEGA (6.5 MILES)(3 LAPS)<br>CARS ALLOWED:TOYOTA SUPRA,MAZDA RX 8,AUDI TT 3.2 QUATRO,CLIO V6,FORD MUSTANG GT",
+                    "<b>QUARTERS:</b><br>TRACK :GRAY POINT(7.1 MILES)(3LAPS)<br>CARS ALLOWED:MAZDA RX 7,MITSUBISHI LANCER EVOLUTION VIII,LOTUS ELISE,PORSCHE CAYMAN S,VAUXHALL MONARO VXR",
+                    "<b>SEMIS:</b><br>TRACK:SWITCHBACK(8.9 MILES)[3 LAPS]<br>CARS ALLOWED:CORVETTE C6,ASTON MARTIN DB9,PORSCHE 911 TURBO S,DODGE VIPER SRT 10,LOTUS ELISE,LAMBORGHINI GALLARDO",
+                    "<b>FINALE:</b><br>TRACK:NFS WORLD LOOP(16.9 MILES)[SPRINT]<br>CARS: ANY CAR OF YOUR CHOICE..",
+                    "Organizers certificate for acknowledgent in organizing the gaming event ( for MAR purposes).",
+                    "In any case of misunderstanding or problem ..the decision of the organisation is considered to be final and irrevocable."
+                ],
+                "description": "It is a racing game event where a participant will have to compete against other competitors via several rounds of pre-organized racing matches in order to claim victory. The entry round wil have four compete against each other from where one winner will be selected .The subsequent rounds will have head to head matches in order to advance through the competition .Players will be selected according to their position and their lap-times.",
+                "prize" : "<br>1<sup>st</sup>  : ₹ 2000/-<br> 2<sup>nd</sup>  : ₹ 1000/-",
+                "date":"4th & 5th oct",
+                "room":"Lab 5",
+                "time":"12:00 pm"
+            }
+        },
+        {
+            "id": "e-g-7",
+            "name": "PUBG",
+            "data": {
+                "coordinators": "Aritra  Poddar , Bikram Kumar Saha",
+                "contacts": "+91 9903353945 , +91 7003364665",
+                "entry_fee": "<br>₹ 50/-(solo)<br>₹ 200/-(per squad)",
+                "rules": [
+                    "The last one standing will be the winner.",
+                    "If found cheating, he/she will be disqualified immediately. Any squad or player using unfair means or 3rd party apps will be disqualified.",
+                    "You will be responsible for whatever you bring. If you lose any of your belongings you cannot blame on us.",
+                    "No emulator will be allowed on the Mobile days(i.e 5th and 6th), however any mobile player can play with and against emulator players if they want. ",
+                    "There can be atmost four player(s) in a squad.",
+                    "Multiple squads or players teaming up to win will be immediately disqualified.",
+                    "If number of registered players reach more than 100, precisely 120, then two different matches will be held for qualification, and from those matches the best of 50 will be qualified for the next round.",
+                    "You are suggested to bring your device fully charged,in case your phone runs out of cahrge you will not be given a second chance.",
+                    "You can use voice apps (like discord) to communicate with your own teammates and you can use the in-game voice chat also.",
+                    "Match will be held in classic mode. <b>(MAP, SERVER, MODE(TPP OR FPP) WILL BE ANNOUNCED ON THE DAY OF THE MATCH.)</b>",
+                    "PUBG mobile will take place on spot at the campus of GCELT.NO player will be allowed if he/she is not at the campus.<br>(Addition of PUBG emulator)rules to be given."
+                ],
+                "description": "PUBG Mobile, one of the most famous Battle Royale games,needs no introduction. 100 players a game, the last man standing wins the Chicken Dinner. You can play solo, or squad with your friends. You can use anything from the powerful AWM to the famous Pan to kill your enemies. Normal Battle-Royale rules apply.<br>So, what are you waiting for? Grab your weapons, loot the airdrops and show your hunger for Chicken Dinner.<div style='text-align: center; '>...<b>KILL</b> or <b>GET KILLED</b>...</div>",
+                "prize" :"<br>SOLO :&nbsp&nbsp1<sup>st</sup>  : ₹ 1600/-<br>&nbsp &nbsp &nbsp &nbsp &nbsp 2<sup>nd</sup>  : ₹ 1000/-<br>SQUAD :&nbsp1<sup>st</sup>  : ₹ 2500/-<br>&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp2<sup>nd</sup>  : ₹ 1500/-",
+                "date":"5th oct(PUBG solo),6th oct(PUBG squad)",
+                "room":"Old Office(solo),Old 1st Year(squad)",
+                "time":"2:00 pm(solo),12:00 pm(squad)"
+            }
+        },
+        {
+            "id":"e-g-8",
+            "name":"PUBG EMULATOR",
+            "data":{
+                "coordinators":"Aritra Poddar,Bikram Kumar Saha",
+                "contacts":"+91 9903353945,+91 7003364665",
+                "entry_fee":"₹ 250/-(squad)",
+                "rules":[
+                    "The last one standing will be the winner.",
+                    "If found cheating, he/she will be disqualified immediately. Any squad or player using unfair means like,  3rd party apps will be disqualified.",
+                    "You will be responsible for whatever you bring. If you lose any of your belongings you cannot blame on us.",
+                    "In case of network lag we will be not responsible. You can bring your own jio-fi.",
+                    "There can be atmost four player(s) in a squad.",
+                    "Multiple squads or players teaming up to win will be immediately disqualified.",
+                    "If number of registered players reach more than 100, precisely 120, then two different matches will be held for qualification, and from those matches the best of 50 will be qualified for the next round.<b>(THIS RULE CAN BE CHANGED LATER BY THE ORGANISATION)</b>",
+                    "You are suggested to bring your device fully charged, in case your laptop runs out of charge you will be not be given a second chance.",
+                    "You can use voice apps (like discord) to communicate with your own teammates and you can use the in-game voice chat also.",
+                    "Match will be held in classic mode.<b> (MAP, SERVER, MODE(TPP OR FPP) WILL BE ANNOUNCED ON THE DAY OF THE MATCH)</b>",
+                    "NOTE-In any case of misunderstanding or problem, the decision of the organiser is considered to be final and irrevocable.",
+                    "You are requested to bring your own laptop andwe will provide internet connection.",
+                    "Gameplay on<b> PUBG </b>emulator will take place on spot at the campus of<b> GCELT</b>.No player will be allowed isn't present at the campus during the competition.",
+                    "If anyoune wants to play using phone with their squad against emulator players,it is worth their own risk."       
+                ],
+                "description":"<b>PUBG</b> Mobile (Emulator) , one of the most famous Battle Royale games,needs no introduction. 100 players a game, the last man standing wins the Chicken Dinner. You can play solo, or squad with your friends. You can use anything from the powerful AWM to the famous Pan to kill your enemies. Normal Battle-Royale rules apply.So, what are you waiting for? Grab your weapons, loot the airdrops and show your hunger for Chicken Dinner.<br><b>...KILL or GET KILLED...</b>",
+                "prize":"₹ 2000/-(squad)",
+                "date":"4th oct",
+                "room":"Old 1st Year",
+                "time":"2:00 pm"
+            }
+        }
+    ],
+    "abstract": [
+        {
+            "id": "e-a-1",
+            "name": "CHAWLOCHHITRO CIRCUS",
+            "data": {
+                "coordinators": "Diganta K Das",
+                "contacts": "+91 8013214096",
+                "entry_fee": "₹ 150/-",
+                "rules": [
+                    "This is a short film competition and hence ONLY Short Films should be submitted, NO DOCUMENTARIES. The entries can be short digital animation films too. There is no specific topic for the films.",
+                    "<b>DURATION:</b> The films shall not be more than 20 (Twenty) minutes, including the beginning and end credits. Films exceeding this time limit are liable to be rejected. The minimum length should be 30 seconds including credits.",
+                    "The short films may be in their original language, but MUST be subtitled in ENGLISH.",
+                    "<b>FORMAT:</b> The films may be shot in MPEG4 or AVI format. The recommended ratios are: 16:9 / 16:9 Full Height Anamorphic – in DV / HDV.",
+                    "No. of Rounds- 1 (Screening only)",
+                    "Submission of films will be taken in the form of Google Drive links/CDs/Memory Cards/Pen Drives along with proper registration fees.",
+                	"<b>COPYRIGHT:</b> The Film must not contain any copyrighted work(s) belonging to third parties unless (1) Participants have a license to use such works in the Film; or (2) the use participants’ Film makes of such works is a fair one under the copyright laws. Films shown at previous years of Enginerds are not acceptable too.",
+                	"<b>CONTENT:</b> Any kind of meaningless obscene vulgarity is not acceptable and is viable to get rejected. Decision of the committee will be held final under these circumstances.",
+                	"<b>FINAL DECISION:</b> The marking system which will lead us to the Winners depends solely upon the judges. No tantrums should be heard from any side,the decision of the Judges will be considered final.",
+                	"Cancellation of registration at a very later stage would not result in any kind of refunding of the registration fees, no such demand will be entertained."  
+
+                ],
+                "description": "The Official Short Film Competition of Enginerds 2k18,Chawlochhitro Circus presents you an opportunity to seize prizes for your filmmaking skills.",
+                "prize" : "<br>1<sup>st</sup>  : ₹ 3500/-<br> 2<sup>nd</sup>  : ₹ 2000/-<br> 3<sup>rd</sup>  : ₹ 1000/-",
+                "date":"6th oct",
+                "room":"Conference",
+                "time":"6:30 pm"
+            }
+        },
+        {
+            "id": "e-a-2",
+            "name": "MEME-E-MEHFIL",
+            "data": {
+                "coordinators": "Diganta K Das",
+                "contacts": "+91 8013214096",
+                "entry_fee": "First round entry is Free.<br>₹ 40/-(second round) for first round winners",
+                "rules": [
+                    "<b>Selection:</b> For the selection rounds, entry is free, anyone can send their memes to enginerds2k18@gmail.com . Top memers will be selected for the second round(depends on response and quality).Second round contains surprise rounds, so let that be a secret.",
+                    "<b>Topics:</b> There is no such specific topic for the first round of competition. But use of unnecessary vulgar and obscene words and phrases and pictures will not be acceptable and is viable to get rejected.  For the second round topics and details will be disclosed later on spot.",
+                    "<b>Own Content:</b> Only original content will be entertained, if found copied content/idea from any source, that will be rejected immediately.",
+                    "<b>Format:</b> All memes can be of any format i.e jpg/png/gif etc and can be of any aspect ratio. All memes must be mailed for registration. Any meme in facebook page inbox will not be taken into consideration.",
+                    "<b>Decision making:</b> There will be a panel of talented memers from various famous Facebook pages and groups like Memetantra and Punchali. The decision of the panel and organising head of the event will be considered as final regardless of anything."
+                ],
+                "description": "No. of rounds- 2.<br><b>Features:</b> For the first time in the history of Enginerds, a meme making concept is doing its debut. Participants are selected on an online basis for the selection round. Top memelords and memequeens will be selected for the next round. Second round has something in surprise for you…so get ready with your meme-ing  brain and editing apps!",
+                "prize" : "<br>1<sup>st</sup>  : ₹ 900/-<br> 2<sup>nd</sup>  : ₹ 600/-",
+                "date":"6th oct",
+                "room":"CSE 2nd Year",
+                "time":"2:00 pm"
+            }
+        },
+        {
+            "id":"e-a-3",
+            "name":"PHOTO FILM",
+            "data":{
+                "coordinators":"Soumavo Bhattacharya",
+                "contacts":"enginerds2k18@gmail.com ",
+                "entry_fee":"FREE",
+                "rules":[
+                    "Please read these rules (the Rules) before submitting your photo(s) to ENGINERDS 2K18 contest. These are General Rules governing all contests hosted by ENGINERDS 2018, unless so specified in the Specific Rules that may be applicable to individual contests. By participating in the contests, you understand, acknowledge and unconditionally agree to abide by the following Rules:<br><br>",
+                    "<b>BASIC SUBMISSIONS GUIDELINES FOR PHOTOGRAPHS</b>",
+                    "The contests are open for<b> INSTAGRAM/EMAIL/facebook</b> submissions only, through the HASHTAGS :<b> #enginerds2k18, #uniteatenginerds2k18</b> <b>Mail: enginerds2k18@gmail.com</b>, <b>fb:Enginerds 2018</b>",
+                    "Submissions will not be accepted once the deadline lapses.",
+                    "Photos submitted <b>must be at least 640 pixels on the shorter side, and no more than 2000 pixels on the longer side.</b> Images should be<b> no larger than 2MB.</b> Photos must be in<b> JPEG format.</b>",
+                    " You may submit as many entries per contest as you wish, unless specifically mentioned otherwise in the contest specific rules. ",
+                    "You are required to provide a unique title & description for each image submitted.",
+                    "All submitted photos must contain the original<b> EXIF metadata information.</b> However there must be no border(s), logo(s), copyright marks, identifying marks, or any other visible references and/or marks on the image.",
+                    "Basic editing, including colour enhancement, the use of filters, and cropping of the Photo(s) is acceptable, provided any such editing does not affect the authenticity and/or genuineness of the Photo(s).",
+                    "Advanced editing used to create illusions, deceptions and/or manipulations, and the adding and removing of significant elements within the frame is prohibited.",
+                    "Every image uploaded is subject to a moderation process before it becomes visible on the contest page.<b> ENGINERDS 2018</b> reserves the right to assess and disregard any submitted photo at our its discretion.",
+                    "Photos that portray or otherwise include inappropriate and/or offensive content, including provocative nudity, violence, human rights and/or environmental violation, and/or any other contents deemed to be contrary to the law, religious, cultural & moral traditions and practices of India, are strictly prohibited and will be immediately discarded.",
+                    "A participant who submits any such photos may be permanently banned, subject to<b> ENGINERDS 2018</b> discretion, from participating in any future contests.",
+                    "<b>THE JUDGING:<b><br><br><ul><li>ENGINERDS 2018 will appoint a judge / judges for each contest. This will comprise of members of the editorial team and / or external judges.</li><li>The judging panel shall assess and determine the winning Photos. The results and the winners will be announced on the website.</li><li>The decision of TEAM ENGINERD’S judging panel will be final and binding on all Participants in respect to all matters relating to the Contest.</li><li>ENGINERDS 2018 reserves the right to call for original JPEG or RAW files with unchanged EXIF for the purpose of authentication. An image maybe disregarded if this information cannot be provided.</li></ul>",
+                    "<b>GOVERNING LAW:</b><br><br>The Contest, Your Submission(s) and the Rules shall be governed by and construed in accordance with Indian laws. Any aspects or disputes arising out of or in connection with the contest and/or your submission(s) will be subject to the exclusive jurisdiction of the India courts",
+                    "<b>N.B :On the Spot Photography for gceltians and participants</b><br><br>&nbsp &nbsp<i> Surprise us by capturing the best of ENGINERDS 2018 moments and the prize is all yours. Here the participants will cover a particular event and the one with the best photo collection wins.It is an individual competition.Participants should have their own digital camera or DSLR’s OR PHONE CAMS.Theme : Moments of the fest (ENGINERDS 2018)The participant will have to submit his/her best 3 pictures of the fest at 3pm on the registration desk.Decision of the judges will be final and binding.</i>"
+                ],
+                "description":"Photography is the art, application and practice of creating durable images by recording light or other electromagnetic radiation, either electronically by means of an image sensor, or chemically by means of a light-sensitive material such as photographic film.",
+                "prize":"<br>PRIZE DISTRIBUTION ON THE CLOSING DAY OF ENGINERDS 2018, WITH 2000 BEING THE FIRST. 1000 SECOND AND 500 TO BE THIRD.<br><br>THE VENUE WILL BE GOVERNMENT COLLEGE OF ENGINEERING AND LEATHER TECHNOLOGY, KOLKATA.",
+                "date":"6th oct",
+                "room":"Conference",
+                "time":"4:00 pm"
+            }
+            
+        },
+        {
+            "id":"e-a-4",
+            "name":"PICTIONARY",
+            "data":{
+                "coordinators":"<br>Shristi Mandal(Event Head) ,Soumya Nasipuri,Souporno Ghosh,Noyonika Saha,Sanghita Bhowmick ",
+                "contacts":"<br>+91 9038480942,+91 8276918820",
+                "entry_fee":"<br>Participants will have to be in a team of two and each team will have to pay Rs. 20.",
+                "rules":[
+                    "Each team will have a total player of two in which one has to draw and one has to guess.",
+                    "The whole competition will be decided on the basis of League Point System. The first two teams will be the winner and runner-up or they can have a final match depending upon the availability of time.",
+                    "Each match will have 5 rounds and each round will take 2 minutes of time.",
+                    "Each round will have its own difficulty level – 1) Normal(No Special Rules), 2) Two Pictures(The round will consist of two pictures), 3) Wrong Hand(Participants will have to draw with their wrong hand), 4) Can’t Lift the Hand( Participants can’t lift their hand while drawing on the board, they have to draw continuously), 5) Blindfold",
+                    "Each Round will also have its own theme, the words will be given on the basis of the theme."
+                ],
+                "description":"<br><b><i>A Picture is worth a Thousand Words</i></b><br><br><b>Pictionary</b> – It’s like dumb charades but with pictures. People will have to guess a word while their partners draw some hints. Pictionary is a fun, classic party game for all ages! Whether you’re looking for an ice-breaker game for a classroom or a family reunion or just a good game for friends, Pictionary is an excellent choice. Come people and busk in the awesomeness of Quick Sketches and Hilarious Guesses.",
+                "prize":"<br>1<sup>st</sup>  : ₹ 500/-<br> 2<sup>nd</sup>  : ₹ 350/-",
+                "date":"4th oct",
+                "room":"LT 3rd Year",
+                "time":"3:00 pm"
+
+            }
+        },
+        {
+            "id":"e-a-5",
+            "name":"ENGINERDS CUBE OPEN 2018",
+            "data":{
+                "description":"<br>To all the cubers out there irrespective of any age!!! Get ready and fasten ur seat and cubing belts as here comes the perfect platform to showcase and prove ur cubing skills. Enginerds 2k18 presents the ENGINERDS Cube Open 2018 in collaboration with the World Cube Association, the 1st time in the history of Enginerds.For registration details and rules click the link below -"
+            }
+        }
+    ],
+    "orbitron": [
+        {
+            "id": "e-o-1",
+            "name": "ORBITRON",
+            "data": {
+                "coordinators": "SATWAT MANDAL, SAPTARSHI BANARJEE, SOUGATA SIKDAR, SUBHASISH MANDAL",
+                "contacts": "+91 8017072774, +91 9163735581",
+                "entry_fee": "₹ 150/-(Max no. of Team Member 4)", 
+                "rules": [
+                    "The dimension of bot should not exceed 25cmX25cmX25cm, with each parameter eligible for a tolerance of 10%",
+                    "Participants will be provided with a direct 220V power supply only. Any special arrangement to power the bot must be made by the participants themselves",
+                    "Only electrically powered fully autonomous bots are allowed. Failing to do so will lead to direct disqualification",
+                    "Potential difference between any two points on the bot must not exceed 24V",
+                    "Lego parts will not be allowed",
+                    "Any kind of damage to arena will lead to direct disqualification",
+                    "In case of disputes, decision of the event coordinator(s) will be final",
+                    "The robots should be able to process data on-board. No remotely kept computer should control the robots.",
+                    "Usage of commercially available modules such as sensors, development boards, etc. are allowed; but it is forbidden to use complete robotic-system which is sold readymade for the purpose of this competitions such as Lego kits."
+                ],
+                "description": "Robotics event for LINE FOLLOWER.<br>Width of track is 30 mm.<br>Sample arena will be provided for testing The check point will look somewhat like this:<br><br><img src='assets/plus.jpg'</img>",
+                "prize" : "<br>1<sup>st</sup>  : ₹ 3000/-<br> 2<sup>nd</sup>  : ₹ 2000/-<br> 3<sup>rd</sup>  : ₹ 1000/-",
+                "date":"4th,5th & 6th oct",
+                "room":"Old Office",
+                "time":"11:00 am" 
+             }
+        },
+        {
+            "id": "e-o-2",
+            "name": "TRAVEL TROUBLE",
+            "data": {
+                "coordinators": "SATWAT MANDAL, SAPTARSHI BANARJEE, SOUGATA SIKDAR, SUBHASISH MANDAL",
+                "contacts": "+91 8017072774, +91 9163735581",
+                "entry_fee": "₹ 200/-(Max allowed members 4)",
+                "rules": [
+                    "The dimension of the  ATV must be between 30cm x 30cm x 30cm && 20cm x 20cm x 20cm, including wheels (+10% tolerance is allowed).",
+                    "The obstracles would consist of pins, stone chips, mud, sand etc.",
+                    "The track would be on card-board",
+                    "Maximum angle of the slope will be 30<sup>o</sup>.",
+                    "Maximum voltage used for driving the bot should be 24v.",
+                    "Readymade toys/IC engines/Lego kits are not allowed.",
+                    "Each team will be provided with 220V – 50 Hz AC . Any kind extra onboard power source has to be arranged by the team themselves.",
+                    "The technical timeout can be taken for just 2 minutes . Point systems will be introduced at the time of start of the event.",
+                    "Any destruction in the arena may lead to disqualification",
+                    "Coordinator's decision will be final and unquestionable.",
+                    "Participant must not misbehave or abuse any other participants or coordinators. This can be taken seriously and lead to suspension/disqualification from all the events."
+
+                ],
+                "description": " Robotics event for ALL TERRAIN VEHICLE",
+                "prize" : "<br>1<sup>st</sup>  : ₹ 4000/-<br> 2<sup>nd</sup>  : ₹ 3000/-<br> 3<sup>rd</sup>  : ₹ 1000/-",
+                "date":"4th,5th & 6th oct",
+                "room":"Old Office",
+                "time":"11:00 am"
+
+            }
+        },
+        {
+            "id": "e-o-3",
+            "name": "GORESGYN",
+            "data": {
+                "coordinators": "SATWAT MANDAL, SAPTARSHI BANARJEE, SOUGATA SIKDAR, SUBHASISH MANDAL",
+                "contacts": "+91 8017072774, +91 9163735581",
+                "entry_fee": "₹150/- (Max allowed members 4)",
+                "rules": [
+                    "LEGO parts will NOT be allowed.",
+                    "Only electrically powered fully autonomous bots are allowed. Failing to do so will lead to directdisqualification",
+                    "Only 220V AC outlet (direct power supply) will be provided for power supply. The participants must make rest of the arrangements to power their bot.",
+                    "The potential difference between any two points should not exceed 24 volts",
+                    "Any damage to the arena, intentional or unintentional, will lead to direct disqualification",
+                   "In case of disputes, decision of the event coordinator(s) will be final",
+                   "The dimensions of the bot should not exceed 25cm*25cm*25cm (Each parameter is liable for a relaxation or tolerance of 10%).",
+                    "The path through which the bot will traverse inside the maze will be of width 30cm.",
+                   "The participants after completing their allotted 10 minutes of dry run, will immediately have to starttheir final run",
+                    "In the first round, the teams will have to complete the arena within a given time period (will bedisclosed on the day of event).Scoring methodology will be revealed at the start of the event ."
+                   
+
+                ],
+                "description": " Robotics event for OBSTACLE AVOIDER BASED   MAZE SOLVER<br><br>To build an obstacle detector autonomous bot. The bot will start from a given starting point and will have to make its way to the finish autonomously through a maze.",
+                "prize" : "<br>1<sup>st</sup>  : ₹ 3000/-<br> 2<sup>nd</sup>  : ₹ 2000/-<br> 3<sup>rd</sup>  : ₹ 1000/-",
+                "date":"4th,5th & 6th oct",
+                "room":"Old office",
+                "time":"11:00 am"
+            }
+        }
+        
+    ]
+}

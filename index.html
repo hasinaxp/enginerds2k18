@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,height=device-height, initial-scale=1.0, maximum-scale=1, user-scalable=0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="Enginerds 2k18: Gcelt's 8th techno-creative festival... October 4,5 and 6">
+    <meta name="theme-color" content="#191919">
+    <meta name="keywords" content="Enginerds, GCELT, Techfest, enginerds2k18, enginerds2018">
+    <link rel="icon" href="favicon.jpg" sizes="16x16" type="image/jpg">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha256-NuCn4IvuZXdBaFKJOAcsU2Q3ZpwbdFisd5dux4jkQ5w="
+        crossorigin="anonymous" />
+    <link rel="stylesheet" href="css/main.css">
+    <title>Enginerds 2k18</title>
+    <style>
+        .overlay-x {
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            z-index: 99999;
+            background-color: #191919;
+        }
+
+        @import url(https://fonts.googleapis.com/css?family=Source+Code+Pro:400,500,600,700);
+
+        /* Keyframes */
+        @-webkit-keyframes spin {
+            from {
+                -webkit-transform: rotate(0deg) scale(3);
+                -moz-transform: rotate(0deg);
+            }
+            to {
+                -webkit-transform: rotate(-360deg) scale(3);
+                -moz-transform: rotate(-360deg);
+            }
+        }
+
+        @keyframes spin {
+            from {
+                -webkit-transform: rotate(0deg) scale(3);
+                -moz-transform: rotate(0deg);
+            }
+            to {
+                -webkit-transform: rotate(-360deg) scale(3);
+                -moz-transform: rotate(-360deg);
+            }
+        }
+
+        @-webkit-keyframes spin2 {
+            from {
+                -webkit-transform: rotate(0deg) scale(3);
+                -moz-transform: rotate(0deg);
+            }
+            to {
+                -webkit-transform: rotate(720deg) scale(3);
+                -moz-transform: rotate(720deg);
+            }
+        }
+
+        @keyframes spin2 {
+            from {
+                -webkit-transform: rotate(0deg) scale(3);
+                -moz-transform: rotate(0deg);
+            }
+            to {
+                -webkit-transform: rotate(720deg) scale(3);
+                -moz-transform: rotate(720deg);
+            }
+        }
+
+
+
+        /* Spinner */
+        #spinner {
+            border: 2px solid rgb(86, 218, 223);
+            border-top: 2px solid transparent;
+            border-bottom: 2px solid transparent;
+            border-style: solid;
+            position: relative;
+            margin-top: 20%;
+            border-radius: 50%;
+            width: 90px;
+            height: 90px;
+            margin-left: auto;
+            margin-right: auto;
+            -webkit-animation: spin 1s infinite linear;
+            -moz-animation: spin 1s infinite linear;
+            -o-animation: spin 1s infinite linear;
+            animation: spin 1s infinite linear;
+        }
+
+        #spinner:after {
+            content: "";
+            position: absolute;
+            width: 30px;
+            height: 30px;
+            border: 2px solid rgb(23, 160, 130);
+            border-top: 2px solid transparent;
+            border-bottom: 2px solid transparent;
+            border-style: solid;
+            margin: 0 auto;
+            margin: 28px -17px 85px;
+            border-radius: 50%;
+            -webkit-animation: spin2 1s infinite linear;
+            -moz-animation: spin2 1s infinite linear;
+            -o-animation: spin2 1s infinite linear;
+            animation: spin2 1s infinite linear;
+        }
+        @media only screen and (max-width: 600px) {
+            #spinner {
+                margin-top : 40%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="overlay-x" id='xxx-o'>
+        <center>
+            <div id="spinner">
+            </div>
+        </center>
+        <br/>
+        <center><span>loading ...</span></center>
+    </div>
+    <div id='btnClose'><i class="fa fa-arrow-left" aria-hidden="true"></i></div>
+    <!--Back Canvas-->
+    <div class="background">
+        <canvas id="backgroundCanvas"></canvas>
+    </div>
+    <div class="background">
+        <canvas id="grid"></canvas>
+    </div>
+    <div id="x-code">
+        <div class="component" id="intro">
+            <div class="get-started">
+                <div class="artical">
+                    <div class="title">
+                        <div class="center">
+                            <h1 id="word">
+                                <span class="letter">E</span>
+                                <span class="letter">N</span>
+                                <span class="letter">G</span>
+                                <span class="letter">I</span>
+                                <span class="letter">N</span>
+                                <span class="letter">E</span>
+                                <span class="letter">R</span>
+                                <span class="letter">D</span>
+                                <span class="letter">S</span>
+                                <span class="letter"> </span>
+                            </h1>
+                            <div id="test"></div>
+                        </div>
+                    </div>
+                    <div>
+                        <img src="favicon.jpg" height='80' style='margin-left : 18px;'></div>
+                    </div>
+                    <div class="description">
+                        <span>
+                            The wait is finally over! GCELT's Enginerds is back this year, ready to set the tech-o-meter to a new level with a new batch
+                            of twists and thrills. Mark your calendars on 4th, 5th and 6th of October, if you don't want
+                            to miss out the most awaited technical fiesta of this year. Technical, non-technical, gaming,
+                            abstract- you name it and we got it
+                        </span>
+                    </div>
+                    <div class="svg-wrapper" id='btn-go'>
+                        <svg height="40" width="150">
+                            <rect id="shape" height="40" width="150" />
+                            <div id="text">
+                                <span class="spot"><a> &nbsp GO </a></span>
+                            </div>
+                        </svg>
+                    </div>
+                    <div id="x-factor">
+                        <div class="container">
+                            <a href="https://www.facebook.com/enginerds2k18/" target="_blank" class="social">
+                              <i class="fa fa-facebook"></i>
+                            </a>
+                            <a href="https://www.instagram.com/enginerds2k18/?hl=en" target="_blank" class="social">
+                              <i class="fa fa-instagram"></i>
+                            </a>
+                            
+                          </div>
+                    </div>
+                </div>
+            </div>
+            <div class="component" id="mainMenu">
+                <div class="main-menu-collection ">
+                    <div class="menu-item " id="main-menu-item-1">
+                        <div class="m-outside">EVENTS</div>
+                        <div class="inside"></div>
+                    </div>
+                    <div class="menu-item " id="main-menu-item-2">
+                        <div class="m-outside">WORKSHOP</div>
+                        <div class="inside"></div>
+                    </div>
+                    <div class="menu-item " id="main-menu-item-3">
+                        <div class="m-outside">CREW</div>
+                        <div class="inside"></div>
+                    </div>
+                    <div class="menu-item " id="main-menu-item-4">
+                        <div class="m-outside">SPONSORS</div>
+                        <div class="inside"></div>
+                    </div>
+                </div>
+                <div class="main-menu-back" id="btn-initial">
+                    X
+                </div>
+            </div>
+            <div class="seperator"></div>
+            <div class="component" id="eventMenu">
+                <div class="event-menu-item" id="e-m-technical">
+                    <div class="em-inside">TECHNICAL</div>
+                </div>
+                <div class="event-menu-item" id="e-m-nontechnical">
+                    <div class="em-inside">NON TECHNICAL</div>
+                </div>
+                <div class="event-menu-item" id="e-m-gaming">
+                    <div class="em-inside">GAMING</div>
+                </div>
+                <div class="event-menu-item" id="e-m-abstruct">
+                    <div class="em-inside">ABSTRACT</div>
+                </div>
+            </div>
+        </div>
+        
+        
+    <div class="component" id="workshops">
+        <h3>Conducted workshops on: </h3>
+        <h3>PAID:</h3>
+        <ul>
+            <li>Python.</li>
+            <li>Cyber security & Ethical Hacking.</li>
+            <li>Artificial intelligence.</li>
+        </ul>
+        <br>
+        <br>
+        <h3>By- TEAM COGNITO IN ASSOCIATION WITH INFOSEC GLOBAL FOUNDATION</h3><br>
+        <h3>FREE:</h3>
+        <ul>
+            <li>Robotics.</li>
+        </ul>
+        <br>
+        <br>
+        <h3>By- Satwat Mondal</h3>
+    </div>
+    <div class="component" id="events"></div>
+    <div class="component" id="crew"></div>
+    <div class="component" id="sponsors">
+        <h3>EVENT ASSOCIATE</h3>
+        <img src="assets/wca.jpg" alt="WORLD CUBE ASSOCIATION">
+        <h3>EVENT SPONSOR</h3>
+        <img src="assets/cubelelo.png" alt="cubelelo">
+        <h3>EDUCATION PARTNER</h3>
+        <img src="assets/tics3.jpg" alt="TICS">
+        <img src="assets/gateforum.jpg" alt="GATEFORUM">
+        <img src="assets/ims.jpg" alt="IMS">
+        <img src="assets/career_launcher.jpg" alt="CAREER LAUNCHER">
+        <img src="assets/erudite.jpg" alt="ERUDITE">
+        <h3>GAMING PARTNER</h3>
+        <img src="assets/zebronics.jpg" alt="ZEBRONICS">
+        <img src="assets/paradox.jpg" alt="paradox">
+        <h3>ONLINE GROCERY AND MAJOR GIFT PARTNER</h3>
+        <img src="assets/brisk.jpg" alt="BRISK BASKET">
+        <h3>RADIO PARTNER</h3>
+        <img src="assets/friendsfm.jpg" alt="friendsfm">
+        <h3>ONLINE MEDIA PARTNER</h3>
+        <img src="assets/apologue.jpg" alt=" Calcutta Apologue">
+        <img src="assets/explore.jpg" alt="Explore Calcutta">
+
+    </div>
+    <div class="seperator"></div>
+    <!--All js Files-->
+    <script src="deps/TweenMax.min.js"></script>
+    <script src="deps/cleanui.js"></script>
+    <script src="js/template.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/backCanvas.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            console.log('load complete');
+            document.getElementById('xxx-o').style.display = 'none';
+        });
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,130 @@
+[
+    {
+        "id" : "crew-m-2",
+        "image" : "assets/aritra.jpg",
+        "name" : "Aritra Sadhukhan",
+        "position" : "Assisstant General Secretary",
+        "color" : "#f50057",
+        "phone" :"9679036145"
+    },
+    {
+        "id" : "crew-m-5",
+        "image" : "assets/pranita.jpg",
+        "name" : "Pranita Chakraborty ",
+        "position" : "Joint Secretary",
+        "color" : "#eeb107",
+        "phone" :"7595972787"
+    },
+    {
+        "id" : "crew-m-6",
+        "image" : "assets/prince.JPG",
+        "name" : "Prince Khatick ",
+        "position" : "Joint Secretary",
+        "color" : "#263238",
+        "phone" :"7059576042"
+    },
+    {
+        "id" : "crew-m-13",
+        "image" : "assets/manas.JPG",
+        "name" : "Manas Kumar Biswas",
+        "position" : " Treasurer",
+        "color" : "#212121",
+        "phone" :"8240277023"
+    },
+    {
+        "id" : "crew-m-14",
+        "image" : "assets/raihan.jpg",
+        "name" : "Raihan Afroz",
+        "position" : "Treasurer ",
+        "color" : "#0277BD",
+        "phone" :"9735612965"
+    },
+    {
+        "id" : "crew-m-7",
+        "image" : "assets/ivy.jpg",
+        "name" : "Ivy Mahajan ",
+        "position" : "Management Head",
+        "color" : "#EE3647",
+        "phone" :"8240466250"
+    },
+    {
+        "id" : "crew-m-8",
+        "image" : "assets/mayank.jpg",
+        "name" : "Mayank Kedia ",
+        "position" : " Management Head",
+        "color" : "#00838F",
+        "phone" :"7278777280"
+    },
+    {
+        "id" : "crew-m-10",
+        "image" : "assets/anisha.jpg",
+        "name" : "Anisha Mallick",
+        "position" : " Public Relation Head ",
+        "color" : "#C2185B",
+        "phone" :"8017671636"
+    },
+    {
+        "id" : "crew-m-11",
+        "image" : "assets/chandak.jpg",
+        "name" : "Chhandak Patra",
+        "position" : "  Public Relation Head  ",
+        "color" : "#43A047",
+        "phone" :"8981217517"
+    },
+    {
+        "id" : "crew-m-3",
+        "image" : "assets/kumar_s.jpg",
+        "name" : "Kumar Shubham",
+        "position" : "Designing And Publication Head",
+        "color" : "#8f9a27",
+        "phone" :"7980082974"
+    },
+    {
+        "id" : "crew-m-50",
+        "image" : "assets/supratim.jpg",
+        "name" : "Supratim Sarkar",
+        "position" : "Designing And Publication Head",
+        "color" : "#eeb107",
+        "phone" :"7980344765"
+    },
+    {
+        "id" : "crew-m-12",
+        "image" : "assets/spandan.jpg",
+        "name" : "Spandan Mondal",
+        "position" : " Technical Head ",
+        "color" : "#618833",
+        "phone" :"8371919713"
+    },
+    {
+        "id" : "crew-m-9",
+        "image" : "assets/kumar_v.jpg",
+        "name" : "Kumar Vivek",
+        "position" : " Non-Technical Head ",
+        "color" : "#B71C1C",
+        "phone" :"8670910911"
+    },
+    {
+        "id" : "crew-m-70",
+        "image" : "assets/arnabi.jpg",
+        "name" : "Arnabi Mitra",
+        "position" : " Non-Technical Head ",
+        "color" : "#C2185B",
+        "phone" : "7890019401"
+    },
+    {
+        "id" : "crew-m-4",
+        "image" : "assets/suvhodip.JPG",
+        "name" : "Subhodip Rudra",
+        "position" : "Gaming Head",
+        "color" : "#b26a00",
+        "phone" :"9002213102"
+    },
+    {
+        "id" : "crew-m-1",
+        "image" : "assets/diganta.jpg",
+        "name" : "Diganta Kumar Das",
+        "position" : "Abstract Head",
+        "color" : "#6d1b7b",
+        "phone" :"8013214096"
+    }  
+]

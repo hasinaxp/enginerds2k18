@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <title>Enginerds | Registration</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            top: 0;
+            background-image: url('assets/background.jpg');
+            min-height: 100vh;
+            background-position: center;
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        .pages {
+            overflow-x: hidden !important;
+        }
+
+        .page {
+            margin: 4px !important;
+        }
+
+        .lp {
+            margin-left: 20px !important;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="navbar-fixed">
+        <nav>
+            <div class="nav-wrapper cyan darken-1">
+                <a href="index.html" class="brand-logo">&nbsp Enginerds</a>
+            </div>
+        </nav>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col s12">
+                <div class="card-panel grey lighten-4 z-depth-1">
+                    <h4 class="center cyan-text text-darken-2"> REGISTER </h4>
+                    <br>
+                    <form action="techfest.php" method='POST'>
+                        <div class="row pages">
+                            <div class="row page animated" id="first">
+                                <div class="col s12">
+                                    <div class="row">
+                                        <div class="input-field col s12">
+                                            <i class="material-icons prefix">account_circle</i>
+                                            <input id="name" type="text" class="validate" name='name' required>
+                                            <label for="name">Full Name</label>
+                                            <span class="helper-text" data-error="can not leave name empty"></span>
+                                        </div>
+                                        <div class="input-field col s12">
+                                            <i class="material-icons prefix">account_circle</i>
+                                            <input id="college" type="text" class="validate" name='college' required>
+                                            <label for="college">college</label>
+                                            <span class="helper-text" data-error="can not leave college empty"></span>
+                                        </div>
+                                        <div class="input-field col s12 m6">
+                                            <i class="material-icons prefix">phone</i>
+                                            <input id="phone" type="tel" class="validate" name='phone' required>
+                                            <label for="phone">Phone</label>
+                                            <span class="helper-text" data-error="invalid phone no"></span>
+                                        </div>
+                                        <div class="input-field col s12 m6">
+                                            <i class="material-icons prefix">email</i>
+                                            <input id="email" type="email" class="validate" name='email' required>
+                                            <label for="email">Email</label>
+                                            <span class="helper-text" data-error="invalid email"></span>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <button class="btn waves-effect cyan waves-light right" id="i-nextx">Next
+                                            <i class="material-icons right">keyboard_arrow_right</i>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row page animated" id="second">
+                                <div class="col s12">
+                                    <div class="row cyan-text text-datken-1">
+                                        <h5><i class="material-icons left">loyalty</i> TECHNICAL</h5>
+                                    </div>
+                                    <div class="row lp">
+                                        <div class="row">
+                                            <p class='col s6'>
+                                                <label>
+                                                    <input type="checkbox" name='t1' />
+                                                    <span>CODE MONK</span>
+                                                </label>
+                                            </p>
+                                            <div class="input-field col s6">
+                                                <select name='t1s'>
+                                                    <option value="1">SOLO</option>
+                                                    <option value="2">2 PERSON</option>
+                                                    <option value="3">3 PERSON</option>
+                                                </select>
+                                                <label>Pack</label>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <p class='col s6'>
+                                                <label>
+                                                    <input type="checkbox" name='t2' />
+                                                    <span>CIRCUITX</span>
+                                                </label>
+                                            </p>
+                                            <div class="input-field col s6">
+                                                <select name='t2s'>
+                                                    <option value="1">SOLO</option>
+                                                    <option value="2">2 PERSON</option>
+                                                </select>
+                                                <label>Pack</label>
+                                            </div>
+                                        </div>
+                                        <p>
+                                            <label>
+                                                <input type="checkbox" name='t3' />
+                                                <span>ORBITRON</span>
+                                            </label>
+                                        </p>
+                                        <p>
+                                            <label>
+                                                <input type="checkbox" name='t4' />
+                                                <span>TRAVEL TROUBLE</span>
+                                            </label>
+                                        </p>
+                                        <p>
+                                            <label>
+                                                <input type="checkbox" name='t5' />
+                                                <span>GYRESGYN</span>
+                                            </label>
+                                        </p>
+                                        <div class="row">
+                                            <p class='col s6'>
+                                                <label>
+                                                    <input type="checkbox" name='t6' />
+                                                    <span>WEB GENESIS</span>
+                                                </label>
+                                            </p>
+                                            <div class="input-field col s6">
+                                                <select name='t6s'>
+                                                    <option value="1">SOLO</option>
+                                                    <option value="2">2 PERSON</option>
+                                                </select>
+                                                <label>Pack</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row cyan-text text-datken-1">
+                                        <h5><i class="material-icons left">loyalty</i>NON TECHNICAL</h5>
+                                    </div>
+                                    <div class="row lp">
+                                        <p>
+                                            <label>
+                                                <input type="checkbox" name='nt1' />
+                                                <span>BEG BORROW STEAL</span>
+                                            </label>
+                                        </p>
+                                        <p>
+                                            <label>
+                                                <input type="checkbox" name='nt2' />
+                                                <span>CHEMGEEK</span>
+                                            </label>
+                                        </p>
+                                        <p>
+                                            <label>
+                                                <input type="checkbox" name='nt3' />
+                                                <span>MATHNERDS</span>
+                                            </label>
+                                        </p>
+                                        <p>
+                                            <label>
+                                                <input type="checkbox" name='nt4' />
+                                                <span>A QURIOUS AFFAIR</span>
+                                            </label>
+                                        </p>
+                                        <p>
+                                            <label>
+                                                <input type="checkbox" name='nt5' />
+                                                <span>HUNT MANIA</span>
+                                            </label>
+                                        </p>
+                                        <p>
+                                            <label>
+                                                <input type="checkbox" name='nt6' />
+                                                <span>WORD WAR X</span>
+                                            </label>
+                                        </p>
+                                    </div>
+                                    <div class="row cyan-text text-datken-1">
+                                        <h5><i class="material-icons left">loyalty</i> GAMING</h5>
+                                    </div>
+                                    <div class="row lp">
+                                        <p>
+                                            <label>
+                                                <input type="checkbox" name='g1' />
+                                                <span>CLASH ROYAL</span>
+                                            </label>
+                                        </p>
+                                        <p>
+                                            <label>
+                                                <input type="checkbox" name='g2' />
+                                                <span>COUNTER-STRIKE GO</span>
+                                            </label>
+                                        </p>
+                                        <p>
+                                            <label>
+                                                <input type="checkbox" name='g3' />
+                                                <span>KICK OFF 18</span>
+                                            </label>
+                                        </p>
+                                        <p>
+                                            <label>
+                                                <input type="checkbox" name='g4' />
+                                                <span>8 BALL POOL</span>
+                                            </label>
+                                        </p>
+                                        <p>
+                                            <label>
+                                                <input type="checkbox" name='g5' />
+                                                <span>NFS MOST WANTED</span>
+                                            </label>
+                                        </p>
+                                        <div class="row">
+                                            <p class="col s6">
+                                                <label>
+                                                    <input type="checkbox" name='g6' />
+                                                    <span>PUBG</span>
+                                                </label>
+                                            </p>
+                                            <div class="input-field col s6">
+                                                <select name='g6s'>
+                                                    <option value="1">SOLO</option>
+                                                    <option value="2">SQUAD</option>
+                                                </select>
+                                                <label>Pack</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row cyan-text text-datken-1">
+                                        <h5><i class="material-icons left">loyalty</i> ABSTRACT</h5>
+                                    </div>
+                                    <div class="row lp">
+                                        <p>
+                                            <label>
+                                                <input type="checkbox" name='a1' />
+                                                <span>CHAWLOCHITRA CIRCUS</span>
+                                            </label>
+                                        </p>
+                                        <p>
+                                            <label>
+                                                <input type="checkbox" name='a2' />
+                                                <span>MEME-E-MEHEFIL</span>
+                                            </label>
+                                        </p>
+                                        <p>
+                                            <label>
+                                                <input type="checkbox" name='a3' />
+                                                <span>PHOTO FLIM</span>
+                                            </label>
+                                        </p>
+                                        <p>
+                                            <label>
+                                                <input type="checkbox" name='a4' />
+                                                <span>PICTIONARY</span>
+                                            </label>
+                                        </p>
+                                    </div>
+                                    <div class="row">
+                                        <button class="btn waves-effect cyan waves-light left" id="i-prev">previous
+                                            <i class="material-icons right">keyboard_arrow_left</i>
+                                        </button>
+                                        <button type="submit" class="btn waves-effect cyan waves-light right">SUBMIT
+                                            <i class="material-icons right">send</i>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            var elems = document.querySelectorAll('select');
+            var instances = M.FormSelect.init(elems);
+        });
+
+        var nextBtn = document.getElementById('i-nextx');
+        var prevBtn = document.getElementById('i-prev');
+        var first = document.getElementById('first');
+        var second = document.getElementById('second');
+        second.style.display = 'none';
+        nextBtn.addEventListener('click', (e) => {
+            e.preventDefault();
+            second.classList.remove('fadeOutRight');
+            first.classList.add('fadeOutLeft');
+
+            setTimeout(() => {
+                first.style.display = 'none';
+                second.style.display = 'block';
+                second.classList.add('fadeInRight');
+            }, 500);
+        });
+        prevBtn.addEventListener('click', (e) => {
+            e.preventDefault();
+            first.classList.remove('fadeOutLeft');
+            second.classList.add('fadeOutRight');
+
+            setTimeout(() => {
+                first.style.display = 'block';
+                second.style.display = 'none';
+                first.classList.add('fadeInLeft');
+            }, 500);
+        });
+    </script>
+</body>
+
+</html>

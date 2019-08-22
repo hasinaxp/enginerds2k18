@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="icon" href="favicon.jpg" sizes="16x16" type="image/jpg">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <title>ENGINERDS | ADMIN</title>
+</head>
+
+<body>
+    <div class="navbar-fixed">
+        <nav>
+            <div class="nav-wrapper cyan darken-1">
+                <a href="index.html" class="brand-logo">&nbsp Enginerds</a>
+            </div>
+        </nav>
+    </div>
+    <div class="container">
+        <div class="row card-panel" id="databox">
+
+        </div>
+    </div>
+    <div id="modal1" class="modal">
+        <div class="modal-content">
+            <h5 class="center teal-text">Details</h5>
+            <div class="dx">
+                <div class="row">
+                    <div class="col s6 teal-text">name : </div>
+                    <div class="col s6" id="name"></div>
+
+                    <div class="col s6 teal-text">email : </div>
+                    <div class="col s6" id="email"></div>
+
+                    <div class="col s6 teal-text">college : </div>
+                    <div class="col s6" id="college"></div>
+
+                    <div class="col s6 teal-text">phone : </div>
+                    <div class="col s6" id="phone"></div>
+
+                    <div class="col s6 teal-text">order id : </div>
+                    <div class="col s6" id="payment"></div>
+
+                    <div class="col s6 teal-text">total : </div>
+                    <div class="col s6" id="total"></div>
+                </div>
+            </div>
+        </div>
+        <div class="modal-footer">
+            <a href="#!" onclick="sendConfirmationMail();" class=" waves-effect waves-dark btn-flat green-text">Confirm</a>
+            <a href="#!" onclick="sendDueMail();" class="waves-effect waves-dark btn-flat red-text">due</a>
+        </div>
+    </div>
+    <script src="https://www.gstatic.com/firebasejs/5.5.0/firebase.js"></script>
+    <script>
+        // Initialize Firebase
+        var config = {
+            apiKey: "AIzaSyAdVazJBOIDzqK2JZLU3L6_9A37a9Zeu98",
+            authDomain: "enginerds-b383e.firebaseapp.com",
+            databaseURL: "https://enginerds-b383e.firebaseio.com",
+            projectId: "enginerds-b383e",
+            storageBucket: "enginerds-b383e.appspot.com",
+            messagingSenderId: "439317559416"
+        };
+        var A_DATA = {};
+        var ID = '';
+        document.addEventListener('DOMContentLoaded', function () {
+            var elems = document.querySelectorAll('.modal');
+            var instances = M.Modal.init(elems);
+        });
+
+        firebase.initializeApp(config);
+        var ref = firebase.database().ref();
+
+        ref.on("value", function (snapshot) {
+            console.log(snapshot.val());
+        }, function (error) {
+            console.log("Error: " + error.code);
+        });
+        function loadTable() {
+            ref.on("value", function (snapshot) {
+                let data = snapshot.val();
+                let tableHtml = "<table><thead class='blue-text'><tr><th>email</th><th>order id</th> <th>total</th> <th>id</th></tr></thead><tbody>"
+                Object.keys(data.applicants).forEach(a => {
+                    if ((data.applicants[a].hasOwnProperty('paymentId') && (!data.applicants[a].hasOwnProperty('mailStatus'))) || (data.applicants[a].hasOwnProperty('mailStatus') && (data.applicants[a].mailStatus == 'due')))
+                        
+                        if((data.applicants[a].hasOwnProperty('mailStatus') && (data.applicants[a].mailStatus == 'due')))
+                            tableHtml += templateEntry(data.applicants[a].paymentId, data.applicants[a].total, data.applicants[a].email, a, true);
+                        else
+                            tableHtml += templateEntry(data.applicants[a].paymentId, data.applicants[a].total, data.applicants[a].email, a, false);
+                });
+                tableHtml += "</tbody></table>"
+                document.getElementById('databox').innerHTML = tableHtml;
+            });
+        }
+        loadTable();
+
+        function _id(id) { return document.getElementById(id); }
+        function templateEntry(orderId, total, email, id,x) {
+            let temp;
+            if(!x) {
+                temp = `
+                        <tr>
+                        <td>${email}</td>
+                        <td>${orderId}</td>
+                        <td>${total}/-</td>
+                        <td><a href="#modal1" class="btn modal-trigger" onclick="loadApplicantData('${id}')">view</a></td>
+                        </tr>
+                    `;
+            }else {
+                temp = `
+                        <tr>
+                        <td>${email} <span class="badge red white-text" style="transform: scale(0.7) translateY(-10px);">due</span></td>
+                        <td>${orderId}</td>
+                        <td>${total}/-</td>
+                        <td><a href="#modal1" class="btn modal-trigger blue" onclick="loadApplicantData('${id}')">view</a></td>
+                        </tr>
+                    `;
+            }
+            
+            return temp;
+        }
+        function loadApplicantData(id) {
+            ref.on("value", function (snapshot) {
+                let data = snapshot.val();
+                A_DATA = data.applicants[id];
+                ID = id;
+                _id('name').innerText = A_DATA.name;
+                _id('college').innerText = A_DATA.college;
+                _id('phone').innerText = A_DATA.phone;
+                _id('email').innerText = A_DATA.email;
+                _id('payment').innerText = A_DATA.paymentId;
+                _id('total').innerText = A_DATA.total + '/-';
+            });
+        }
+        function sendConfirmationMail() {
+            let url = `confirmMail.php?xag=${ID}`
+            console.log(url);
+            fetch(url).then(res => {
+                if (res.status != 200) {
+                    console.error(`there is some problem in fetching data: ${url}`);
+                    return;
+                }
+                else {
+                    alert('mail sent successfully');
+                    document.location.reload();
+                }
+            });
+        }
+        function sendDueMail() {
+            let due = prompt("Please enter due ammount");
+            let url = `confirmMail.php?zxr=${ID}&due=${due}`
+            console.log(url);
+            fetch(url).then(res => {
+                if (res.status != 200) {
+                    console.error(`there is some problem in fetching data: ${url}`);
+                    return;
+                }
+                else {
+                    alert(`mail sent successfully. due:${due}`);
+                    document.location.reload();
+                }
+            });
+        }
+    </script>
+</body>
+
+</html>
